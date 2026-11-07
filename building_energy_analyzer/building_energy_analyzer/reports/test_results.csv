@@ -1,7 +1,0 @@
-id,type,test,expected,actual,result
-V1,valid,"Energy for R01 (1.8+9+3.5 kW, 10 h, 120 m2)","total power 14.3 kW, daily 143.0 kWh, 1.19 kWh/m2","total power 14.3 kW, daily 143.0 kWh, 1.19 kWh/m2",PASS
-V2,valid,Cut AC power by 20% (hours and other loads unchanged),R01 143.0 -> 125.0 kWh/day; all rooms save 118.88 kWh/day,R01 143.0 -> 125.0 kWh/day; all rooms save 118.88 kWh/day,PASS
-V3,valid,Clean readings.csv (490 raw rows),"488 rows, 2 duplicates removed, 3 missing filled, 0 missing left","488 rows, 2 duplicates removed, 3 missing filled, 0 missing left",PASS
-I1,invalid,Room area = 0,ValueError: Area must be greater than zero.,ValueError: Area must be greater than zero.,PASS
-I2,invalid,Air-conditioning power = -5 kW,ValueError: Air-conditioning power cannot be negative.,ValueError: Air-conditioning power cannot be negative.,PASS
-I3,invalid,Operating hours = 25,ValueError: Operating hours must be between 0 and 24.,ValueError: Operating hours must be between 0 and 24.,PASS

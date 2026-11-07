@@ -1,9 +1,0 @@
-room_id,room_name,building,total_kwh,avg_daily_kwh,total_cost,estimated_daily_kwh,actual_vs_estimated_pct,avg_kwh_per_m2_day
-R01,Open Office,Admin Block,5540.51,90.83,8310.76,143.0,63.5,0.757
-R02,Meeting Room,Admin Block,1094.76,17.95,1642.14,28.8,62.3,0.513
-R03,Manager Office,Admin Block,1109.19,18.18,1663.78,29.6,61.4,0.649
-R04,Server Room,Admin Block,14570.92,238.87,21856.37,316.8,75.4,11.944
-R05,Lecture Hall,Academic Block,4989.56,81.8,7484.34,131.2,62.3,0.545
-R06,Computer Lab,Academic Block,5254.92,86.15,7882.38,132.3,65.1,1.077
-R07,Library,Academic Block,7743.54,126.94,11615.31,185.0,68.6,0.635
-R08,Cafeteria,Academic Block,3473.59,56.94,5210.38,84.0,67.8,0.633
